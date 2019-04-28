@@ -1,0 +1,782 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel=icon href="sorocaba.png">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <title> Cadastro de usuários</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html"><i class="fa fa-lightbulb-o color-yellow"></i>
+            <font style="color: #ffff00">MELHORA </font>
+            <font style="color: #ff0000">SOROCABA</font>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="form-ideias.html">Melhorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="historia.html">História</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="login-usuario.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro-usuario.html">Cadastro de usuário</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <form class="col-md-6 offset-md-1">
+        <h1>Dados Pessoais</h1>
+        <br>
+        <div class="form-row">
+            <div class="form-grup col-md-8">
+                <label for="inputNome4">Nome</label>
+                <input type="text" class="form-control" id="inputNome4" placeholder="Nome Completo">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputPassword4">Senha</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-8">
+                <label for="inputEmail4">E-mail</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputDataNasc2">Data de Nascimento</label>
+                <input type="date" class="form-control" id="inputDataNasc2">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-8">
+                <label for="inputAddress">Endereço</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Rua Brasil, nº 0">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputCity">Cidade</label>
+                <input type="text" class="form-control" id="inputCity" list="cidades">
+                <datalist id="cidades">
+                    <option value="Bady Bassitt"></option>
+                    <option value="Balbinos"></option>
+                    <option value="Balsamo"></option>
+                    <option value="Bananal"></option>
+                    <option value="Barao de Antonina"></option>
+                    <option value="Barbosa"></option>
+                    <option value="Bariri"></option>
+                    <option value="Barra Bonita"></option>
+                    <option value="Barra do Chapeu"></option>
+                    <option value="Barra do Turvo"></option>
+                    <option value="Barretos"></option>
+                    <option value="Barrinha"></option>
+                    <option value="Barueri"></option>
+                    <option value="Bastos"></option>
+                    <option value="Batatais"></option>
+                    <option value="Bauru"></option>
+                    <option value="Bebedouro"></option>
+                    <option value="Bento de Abreu"></option>
+                    <option value="Bernardino de Campos"></option>
+                    <option value="Bertioga"></option>
+                    <option value="Bilac"></option>
+                    <option value="Birigui"></option>
+                    <option value="Biritiba-Mirim"></option>
+                    <option value="Boa Esperanca do Sul"></option>
+                    <option value="Bocaina"></option>
+                    <option value="Bofete"></option>
+                    <option value="Boituva"></option>
+                    <option value="Bom Jesus dos Perdoes"></option>
+                    <option value="Bom Sucesso de Itarare"></option>
+                    <option value="Bora"></option>
+                    <option value="Boraceia"></option>
+                    <option value="Borborema"></option>
+                    <option value="Borebi"></option>
+                    <option value="Botucatu"></option>
+                    <option value="Braganca Paulista"></option>
+                    <option value="Brauna"></option>
+                    <option value="Brejo Alegre"></option>
+                    <option value="Brodosqui"></option>
+                    <option value="Brotas"></option>
+                    <option value="Buri"></option>
+                    <option value="Buritama"></option>
+                    <option value="Buritizal"></option>
+                    <option value="Cabralia Paulista"></option>
+                    <option value="Cabreuva"></option>
+                    <option value="Cacapava"></option>
+                    <option value="Cachoeira Paulista"></option>
+                    <option value="Caconde"></option>
+                    <option value="Cafelandia"></option>
+                    <option value="Caiabu"></option>
+                    <option value="Caieiras"></option>
+                    <option value="Caiua"></option>
+                    <option value="Cajamar"></option>
+                    <option value="Cajati"></option>
+                    <option value="Cajobi"></option>
+                    <option value="Cajuru"></option>
+                    <option value="Campina do Monte Alegre"></option>
+                    <option value="Campinas"></option>
+                    <option value="Campo Limpo Paulista"></option>
+                    <option value="Campos Novos Paulista"></option>
+                    <option value="Campos do Jordao"></option>
+                    <option value="Cananeia"></option>
+                    <option value="Canas"></option>
+                    <option value="Candido Mota"></option>
+                    <option value="Candido Rodrigues"></option>
+                    <option value="Canitar"></option>
+                    <option value="Capao Bonito"></option>
+                    <option value="Capela do Alto"></option>
+                    <option value="Capivari"></option>
+                    <option value="Caraguatatuba"></option>
+                    <option value="Carapicuiba"></option>
+                    <option value="Cardoso"></option>
+                    <option value="Casa Branca"></option>
+                    <option value="Cassia dos Coqueiros"></option>
+                    <option value="Castilho"></option>
+                    <option value="Catanduva"></option>
+                    <option value="Catigua"></option>
+                    <option value="Cedral"></option>
+                    <option value="Cerqueira Cesar"></option>
+                    <option value="Cerquilho"></option>
+                    <option value="Cesario Lange"></option>
+                    <option value="Charqueada"></option>
+                    <option value="Chavantes"></option>
+                    <option value="Clementina"></option>
+                    <option value="Colina"></option>
+                    <option value="Colombia"></option>
+                    <option value="Conchal"></option>
+                    <option value="Conchas"></option>
+                    <option value="Cordeiropolis"></option>
+                    <option value="Coroados"></option>
+                    <option value="Coronel Macedo"></option>
+                    <option value="Corumbatai"></option>
+                    <option value="Cosmopolis"></option>
+                    <option value="Cosmorama"></option>
+                    <option value="Cotia"></option>
+                    <option value="Cravinhos"></option>
+                    <option value="Cristais Paulista"></option>
+                    <option value="Cruzalia"></option>
+                    <option value="Cruzeiro"></option>
+                    <option value="Cubatao"></option>
+                    <option value="Cunha"></option>
+                    <option value="Descalvado"></option>
+                    <option value="Diadema"></option>
+                    <option value="Dirce Reis"></option>
+                    <option value="Divinolandia"></option>
+                    <option value="Dobrada"></option>
+                    <option value="Dois Corregos"></option>
+                    <option value="Dolcinopolis"></option>
+                    <option value="Dourado"></option>
+                    <option value="Dracena"></option>
+                    <option value="Duartina"></option>
+                    <option value="Dumont"></option>
+                    <option value="Echapora"></option>
+                    <option value="Eldorado"></option>
+                    <option value="Elias Fausto"></option>
+                    <option value="Elisiario"></option>
+                    <option value="Embauba"></option>
+                    <option value="Embu"></option>
+                    <option value="Embu-Guacu"></option>
+                    <option value="Emilianopolis"></option>
+                    <option value="Engenheiro Coelho"></option>
+                    <option value="Espirito Santo do Pinhal"></option>
+                    <option value="Espirito Santo do Turvo"></option>
+                    <option value="Estiva Gerbi"></option>
+                    <option value="Estrela d'Oeste"></option>
+                    <option value="Estrela do Norte"></option>
+                    <option value="Euclides da Cunha Paulista"></option>
+                    <option value="Fartura"></option>
+                    <option value="Fernando Prestes"></option>
+                    <option value="Fernandopolis"></option>
+                    <option value="Fernao"></option>
+                    <option value="Ferraz de Vasconcelos"></option>
+                    <option value="Flora Rica"></option>
+                    <option value="Floreal"></option>
+                    <option value="Florida Paulista"></option>
+                    <option value="Florinia"></option>
+                    <option value="Franca"></option>
+                    <option value="Francisco Morato"></option>
+                    <option value="Franco da Rocha"></option>
+                    <option value="Gabriel Monteiro"></option>
+                    <option value="Galia"></option>
+                    <option value="Garca"></option>
+                    <option value="Gastao Vidigal"></option>
+                    <option value="Gaviao Peixoto"></option>
+                    <option value="General Salgado"></option>
+                    <option value="Getulina"></option>
+                    <option value="Glicerio"></option>
+                    <option value="Guaicara"></option>
+                    <option value="Guaimbe"></option>
+                    <option value="Guaira"></option>
+                    <option value="Guapiacu"></option>
+                    <option value="Guapiara"></option>
+                    <option value="Guara"></option>
+                    <option value="Guaracai"></option>
+                    <option value="Guaraci"></option>
+                    <option value="Guarani d'Oeste"></option>
+                    <option value="Guaranta"></option>
+                    <option value="Guararapes"></option>
+                    <option value="Guararema"></option>
+                    <option value="Guaratingueta"></option>
+                    <option value="Guarei"></option>
+                    <option value="Guariba"></option>
+                    <option value="Guaruja"></option>
+                    <option value="Guarulhos"></option>
+                    <option value="Guatapara"></option>
+                    <option value="Guzolandia"></option>
+                    <option value="Herculandia"></option>
+                    <option value="Holambra"></option>
+                    <option value="Hortolandia"></option>
+                    <option value="Iacanga"></option>
+                    <option value="Iacri"></option>
+                    <option value="Iaras"></option>
+                    <option value="Ibate"></option>
+                    <option value="Ibira"></option>
+                    <option value="Ibirarema"></option>
+                    <option value="Ibitinga"></option>
+                    <option value="Ibiuna"></option>
+                    <option value="Icem"></option>
+                    <option value="Iepe"></option>
+                    <option value="Igaracu do Tiete"></option>
+                    <option value="Igarapava"></option>
+                    <option value="Igarata"></option>
+                    <option value="Iguape"></option>
+                    <option value="Ilha Comprida"></option>
+                    <option value="Ilha Solteira"></option>
+                    <option value="Ilhabela"></option>
+                    <option value="Indaiatuba"></option>
+                    <option value="Indiana"></option>
+                    <option value="Indiapora"></option>
+                    <option value="Inubia Paulista"></option>
+                    <option value="Ipaucu"></option>
+                    <option value="Ipero"></option>
+                    <option value="Ipeuna"></option>
+                    <option value="Ipigua"></option>
+                    <option value="Iporanga"></option>
+                    <option value="Ipua"></option>
+                    <option value="Iracemapolis"></option>
+                    <option value="Irapua"></option>
+                    <option value="Irapuru"></option>
+                    <option value="Itabera"></option>
+                    <option value="Itai"></option>
+                    <option value="Itajobi"></option>
+                    <option value="Itaju"></option>
+                    <option value="Itanhaem"></option>
+                    <option value="Itaoca"></option>
+                    <option value="Itapecerica da Serra"></option>
+                    <option value="Itapetininga"></option>
+                    <option value="Itapeva"></option>
+                    <option value="Itapevi"></option>
+                    <option value="Itapira"></option>
+                    <option value="Itapirapua Paulista"></option>
+                    <option value="Itapolis"></option>
+                    <option value="Itaporanga"></option>
+                    <option value="Itapui"></option>
+                    <option value="Itapura"></option>
+                    <option value="Itaquaquecetuba"></option>
+                    <option value="Itarare"></option>
+                    <option value="Itariri"></option>
+                    <option value="Itatiba"></option>
+                    <option value="Itatinga"></option>
+                    <option value="Itirapina"></option>
+                    <option value="Itirapua"></option>
+                    <option value="Itobi"></option>
+                    <option value="Itu"></option>
+                    <option value="Itupeva"></option>
+                    <option value="Ituverava"></option>
+                    <option value="Jaborandi"></option>
+                    <option value="Jaboticabal"></option>
+                    <option value="Jacarei"></option>
+                    <option value="Jaci"></option>
+                    <option value="Jacupiranga"></option>
+                    <option value="Jaguariuna"></option>
+                    <option value="Jales"></option>
+                    <option value="Jambeiro"></option>
+                    <option value="Jandira"></option>
+                    <option value="Jardinopolis"></option>
+                    <option value="Jarinu"></option>
+                    <option value="Jau"></option>
+                    <option value="Jeriquara"></option>
+                    <option value="Joanopolis"></option>
+                    <option value="Joao Ramalho"></option>
+                    <option value="Jose Bonifacio"></option>
+                    <option value="Julio Mesquita"></option>
+                    <option value="Jumirim"></option>
+                    <option value="Jundiai"></option>
+                    <option value="Junqueiropolis"></option>
+                    <option value="Juquia"></option>
+                    <option value="Juquitiba"></option>
+                    <option value="Lagoinha"></option>
+                    <option value="Laranjal Paulista"></option>
+                    <option value="Lavinia"></option>
+                    <option value="Lavrinhas"></option>
+                    <option value="Leme"></option>
+                    <option value="Lencois Paulista"></option>
+                    <option value="Limeira"></option>
+                    <option value="Lindoia"></option>
+                    <option value="Lins"></option>
+                    <option value="Lorena"></option>
+                    <option value="Lourdes"></option>
+                    <option value="Louveira"></option>
+                    <option value="Lucelia"></option>
+                    <option value="Lucianopolis"></option>
+                    <option value="Luis Antonio"></option>
+                    <option value="Luiziania"></option>
+                    <option value="Lupercio"></option>
+                    <option value="Lutecia"></option>
+                    <option value="Macatuba"></option>
+                    <option value="Macaubal"></option>
+                    <option value="Macedonia"></option>
+                    <option value="Magda"></option>
+                    <option value="Mairinque"></option>
+                    <option value="Mairipora"></option>
+                    <option value="Manduri"></option>
+                    <option value="Maraba Paulista"></option>
+                    <option value="Maracai"></option>
+                    <option value="Marapoama"></option>
+                    <option value="Mariapolis"></option>
+                    <option value="Marilia"></option>
+                    <option value="Marinopolis"></option>
+                    <option value="Martinopolis"></option>
+                    <option value="Matao"></option>
+                    <option value="Maua"></option>
+                    <option value="Mendonca"></option>
+                    <option value="Meridiano"></option>
+                    <option value="Mesopolis"></option>
+                    <option value="Miguelopolis"></option>
+                    <option value="Mineiros do Tiete"></option>
+                    <option value="Mira Estrela"></option>
+                    <option value="Miracatu"></option>
+                    <option value="Mirandopolis"></option>
+                    <option value="Mirante do Paranapanema"></option>
+                    <option value="Mirassol"></option>
+                    <option value="Mirassolandia"></option>
+                    <option value="Mococa"></option>
+                    <option value="Mogi Guacu"></option>
+                    <option value="Moji das Cruzes"></option>
+                    <option value="Moji-Mirim"></option>
+                    <option value="Mombuca"></option>
+                    <option value="Moncoes"></option>
+                    <option value="Mongagua"></option>
+                    <option value="Monte Alegre do Sul"></option>
+                    <option value="Monte Alto"></option>
+                    <option value="Monte Aprazivel"></option>
+                    <option value="Monte Azul Paulista"></option>
+                    <option value="Monte Castelo"></option>
+                    <option value="Monte Mor"></option>
+                    <option value="Monteiro Lobato"></option>
+                    <option value="Morro Agudo"></option>
+                    <option value="Morungaba"></option>
+                    <option value="Motuca"></option>
+                    <option value="Murutinga do Sul"></option>
+                    <option value="Nantes"></option>
+                    <option value="Narandiba"></option>
+                    <option value="Natividade da Serra"></option>
+                    <option value="Nazare Paulista"></option>
+                    <option value="Neves Paulista"></option>
+                    <option value="Nhandeara"></option>
+                    <option value="Nipoa"></option>
+                    <option value="Nova Alianca"></option>
+                    <option value="Nova Campina"></option>
+                    <option value="Nova Canaa Paulista"></option>
+                    <option value="Nova Castilho"></option>
+                    <option value="Nova Europa"></option>
+                    <option value="Nova Granada"></option>
+                    <option value="Nova Guataporanga"></option>
+                    <option value="Nova Independencia"></option>
+                    <option value="Nova Luzitania"></option>
+                    <option value="Nova Odessa"></option>
+                    <option value="Novais"></option>
+                    <option value="Novo Horizonte"></option>
+                    <option value="Nuporanga"></option>
+                    <option value="Ocaucu"></option>
+                    <option value="Oleo"></option>
+                    <option value="Olimpia"></option>
+                    <option value="Onda Verde"></option>
+                    <option value="Oriente"></option>
+                    <option value="Orindiuva"></option>
+                    <option value="Orlandia"></option>
+                    <option value="Osasco"></option>
+                    <option value="Oscar Bressane"></option>
+                    <option value="Osvaldo Cruz"></option>
+                    <option value="Ourinhos"></option>
+                    <option value="Ouro Verde"></option>
+                    <option value="Ouroeste"></option>
+                    <option value="Pacaembu"></option>
+                    <option value="Palestina"></option>
+                    <option value="Palmares Paulista"></option>
+                    <option value="Palmeira d'Oeste"></option>
+                    <option value="Palmital"></option>
+                    <option value="Panorama"></option>
+                    <option value="Paraguacu Paulista"></option>
+                    <option value="Paraibuna"></option>
+                    <option value="Paraiso"></option>
+                    <option value="Paranapanema"></option>
+                    <option value="Paranapua"></option>
+                    <option value="Parapua"></option>
+                    <option value="Pardinho"></option>
+                    <option value="Pariquera-Acu"></option>
+                    <option value="Parisi"></option>
+                    <option value="Patrocinio Paulista"></option>
+                    <option value="Pauliceia"></option>
+                    <option value="Paulinia"></option>
+                    <option value="Paulistania"></option>
+                    <option value="Paulo de Faria"></option>
+                    <option value="Pederneiras"></option>
+                    <option value="Pedra Bela"></option>
+                    <option value="Pedranopolis"></option>
+                    <option value="Pedregulho"></option>
+                    <option value="Pedreira"></option>
+                    <option value="Pedrinhas Paulista"></option>
+                    <option value="Pedro de Toledo"></option>
+                    <option value="Penapolis"></option>
+                    <option value="Pereira Barreto"></option>
+                    <option value="Pereiras"></option>
+                    <option value="Peruibe"></option>
+                    <option value="Piacatu"></option>
+                    <option value="Piedade"></option>
+                    <option value="Pilar do Sul"></option>
+                    <option value="Pindamonhangaba"></option>
+                    <option value="Pindorama"></option>
+                    <option value="Pinhalzinho"></option>
+                    <option value="Piquerobi"></option>
+                    <option value="Piquete"></option>
+                    <option value="Piracaia"></option>
+                    <option value="Piracicaba"></option>
+                    <option value="Piraju"></option>
+                    <option value="Pirajui"></option>
+                    <option value="Pirangi"></option>
+                    <option value="Pirapora do Bom Jesus"></option>
+                    <option value="Pirapozinho"></option>
+                    <option value="Pirassununga"></option>
+                    <option value="Piratininga"></option>
+                    <option value="Pitangueiras"></option>
+                    <option value="Planalto"></option>
+                    <option value="Platina"></option>
+                    <option value="Poa"></option>
+                    <option value="Poloni"></option>
+                    <option value="Pompeia"></option>
+                    <option value="Pongai"></option>
+                    <option value="Pontal"></option>
+                    <option value="Pontalinda"></option>
+                    <option value="Pontes Gestal"></option>
+                    <option value="Populina"></option>
+                    <option value="Porangaba"></option>
+                    <option value="Porto Feliz"></option>
+                    <option value="Porto Ferreira"></option>
+                    <option value="Potim"></option>
+                    <option value="Potirendaba"></option>
+                    <option value="Pracinha"></option>
+                    <option value="Pradopolis"></option>
+                    <option value="Praia Grande"></option>
+                    <option value="Pratania"></option>
+                    <option value="Presidente Alves"></option>
+                    <option value="Presidente Bernardes"></option>
+                    <option value="Presidente Epitacio"></option>
+                    <option value="Presidente Prudente"></option>
+                    <option value="Presidente Venceslau"></option>
+                    <option value="Promissao"></option>
+                    <option value="Quadra"></option>
+                    <option value="Quata"></option>
+                    <option value="Queiroz"></option>
+                    <option value="Queluz"></option>
+                    <option value="Quintana"></option>
+                    <option value="Rafard"></option>
+                    <option value="Rancharia"></option>
+                    <option value="Redencao da Serra"></option>
+                    <option value="Regente Feijo"></option>
+                    <option value="Reginopolis"></option>
+                    <option value="Registro"></option>
+                    <option value="Restinga"></option>
+                    <option value="Ribeira"></option>
+                    <option value="Ribeirao Bonito"></option>
+                    <option value="Ribeirao Branco"></option>
+                    <option value="Ribeirao Corrente"></option>
+                    <option value="Ribeirao Grande"></option>
+                    <option value="Ribeirao Pires"></option>
+                    <option value="Ribeirao Preto"></option>
+                    <option value="Ribeirao do Sul"></option>
+                    <option value="Ribeirao dos Indios"></option>
+                    <option value="Rifaina"></option>
+                    <option value="Rincao"></option>
+                    <option value="Rinopolis"></option>
+                    <option value="Rio Claro"></option>
+                    <option value="Rio Grande da Serra"></option>
+                    <option value="Rio das Pedras"></option>
+                    <option value="Riolandia"></option>
+                    <option value="Riversul"></option>
+                    <option value="Rosana"></option>
+                    <option value="Roseira"></option>
+                    <option value="Rubiacea"></option>
+                    <option value="Rubineia"></option>
+                    <option value="Sabino"></option>
+                    <option value="Sagres"></option>
+                    <option value="Sales Oliveira"></option>
+                    <option value="Sales"></option>
+                    <option value="Salesopolis"></option>
+                    <option value="Salmourao"></option>
+                    <option value="Saltinho"></option>
+                    <option value="Salto Grande"></option>
+                    <option value="Salto de Pirapora"></option>
+                    <option value="Salto"></option>
+                    <option value="Sandovalina"></option>
+                    <option value="Santa Adelia"></option>
+                    <option value="Santa Albertina"></option>
+                    <option value="Santa Barbara d'Oeste"></option>
+                    <option value="Santa Branca"></option>
+                    <option value="Santa Clara d'Oeste"></option>
+                    <option value="Santa Cruz da Conceicao"></option>
+                    <option value="Santa Cruz da Esperanca"></option>
+                    <option value="Santa Cruz das Palmeiras"></option>
+                    <option value="Santa Cruz do Rio Pardo"></option>
+                    <option value="Santa Ernestina"></option>
+                    <option value="Santa Fe do Sul"></option>
+                    <option value="Santa Gertrudes"></option>
+                    <option value="Santa Isabel"></option>
+                    <option value="Santa Lucia"></option>
+                    <option value="Santa Maria da Serra"></option>
+                    <option value="Santa Mercedes"></option>
+                    <option value="Santa Rita d'Oeste"></option>
+                    <option value="Santa Rita do Passa Quatro"></option>
+                    <option value="Santa Rosa de Viterbo"></option>
+                    <option value="Santa Salete"></option>
+                    <option value="Santana da Ponte Pensa"></option>
+                    <option value="Santana de Parnaiba"></option>
+                    <option value="Santo Anastacio"></option>
+                    <option value="Santo Andre"></option>
+                    <option value="Santo Antonio da Alegria"></option>
+                    <option value="Santo Antonio de Posse"></option>
+                    <option value="Santo Antonio do Aracangua"></option>
+                    <option value="Santo Antonio do Jardim"></option>
+                    <option value="Santo Antonio do Pinhal"></option>
+                    <option value="Santo Expedito"></option>
+                    <option value="Santopolis do Aguapei"></option>
+                    <option value="Santos"></option>
+                    <option value="Sao Bento do Sapucai"></option>
+                    <option value="Sao Bernardo do Campo"></option>
+                    <option value="Sao Caetano do Sul"></option>
+                    <option value="Sao Carlos"></option>
+                    <option value="Sao Francisco"></option>
+                    <option value="Sao Joao da Boa Vista"></option>
+                    <option value="Sao Joao das Duas Pontes"></option>
+                    <option value="Sao Joao de Iracema"></option>
+                    <option value="Sao Joao do Pau d'Alho"></option>
+                    <option value="Sao Joaquim da Barra"></option>
+                    <option value="Sao Jose da Bela Vista"></option>
+                    <option value="Sao Jose do Barreiro"></option>
+                    <option value="Sao Jose do Rio Pardo"></option>
+                    <option value="Sao Jose do Rio Preto"></option>
+                    <option value="Sao Jose dos Campos"></option>
+                    <option value="Sao Lourenco da Serra"></option>
+                    <option value="Sao Luis do Paraitinga"></option>
+                    <option value="Sao Manuel"></option>
+                    <option value="Sao Miguel Arcanjo"></option>
+                    <option value="Sao Paulo"></option>
+                    <option value="Sao Pedro do Turvo"></option>
+                    <option value="Sao Pedro"></option>
+                    <option value="Sao Roque"></option>
+                    <option value="Sao Sebastiao da Grama"></option>
+                    <option value="Sao Sebastiao"></option>
+                    <option value="Sao Simao"></option>
+                    <option value="Sao Vicente"></option>
+                    <option value="Sarapui"></option>
+                    <option value="Sarutaia"></option>
+                    <option value="Sebastianopolis do Sul"></option>
+                    <option value="Serra Azul"></option>
+                    <option value="Serra Negra"></option>
+                    <option value="Serrana"></option>
+                    <option value="Sertaozinho"></option>
+                    <option value="Sete Barras"></option>
+                    <option value="Severinia"></option>
+                    <option value="Silveiras"></option>
+                    <option value="Socorro"></option>
+                    <option value="Sorocaba"></option>
+                    <option value="Sud Mennucci"></option>
+                    <option value="Sumare"></option>
+                    <option value="Suzanapolis"></option>
+                    <option value="Suzano"></option>
+                    <option value="Tabapua"></option>
+                    <option value="Tabatinga"></option>
+                    <option value="Taboao da Serra"></option>
+                    <option value="Taciba"></option>
+                    <option value="Taguai"></option>
+                    <option value="Taiacu"></option>
+                    <option value="Taiuva"></option>
+                    <option value="Tambau"></option>
+                    <option value="Tanabi"></option>
+                    <option value="Tapirai"></option>
+                    <option value="Tapiratiba"></option>
+                    <option value="Taquaral"></option>
+                    <option value="Taquaritinga"></option>
+                    <option value="Taquarituba"></option>
+                    <option value="Taquarivai"></option>
+                    <option value="Tarabai"></option>
+                    <option value="Taruma"></option>
+                    <option value="Tatui"></option>
+                    <option value="Taubate"></option>
+                    <option value="Tejupa"></option>
+                    <option value="Teodoro Sampaio"></option>
+                    <option value="Terra Roxa"></option>
+                    <option value="Tiete"></option>
+                    <option value="Timburi"></option>
+                    <option value="Torre de Pedra"></option>
+                    <option value="Torrinha"></option>
+                    <option value="Trabiju"></option>
+                    <option value="Tremembe"></option>
+                    <option value="Tres Fronteiras"></option>
+                    <option value="Tuiuti"></option>
+                    <option value="Tupa"></option>
+                    <option value="Tupi Paulista"></option>
+                    <option value="Turiuba"></option>
+                    <option value="Turmalina"></option>
+                    <option value="Ubarana"></option>
+                    <option value="Ubatuba"></option>
+                    <option value="Ubirajara"></option>
+                    <option value="Uchoa"></option>
+                    <option value="Uniao Paulista"></option>
+                    <option value="Urania"></option>
+                    <option value="Uru"></option>
+                    <option value="Urupes"></option>
+                    <option value="Valentim Gentil"></option>
+                    <option value="Valinhos"></option>
+                    <option value="Valparaiso"></option>
+                    <option value="Vargem Grande Paulista"></option>
+                    <option value="Vargem Grande do Sul"></option>
+                    <option value="Vargem"></option>
+                    <option value="Varzea Paulista"></option>
+                    <option value="Vera Cruz"></option>
+                    <option value="Vinhedo"></option>
+                    <option value="Viradouro"></option>
+                    <option value="Vista Alegre do Alto"></option>
+                    <option value="Vitoria Brasil"></option>
+                    <option value="Votorantim"></option>
+                    <option value="Votuporanga"></option>
+                    <option value="Zacarias"></option>
+                </datalist>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputEstado">Estado</label>
+                <select name="tEst" id="cEst" class="form-control">
+                    <optgroup label="Região Norte">
+                        <option value="AM">Amazonas</option>
+                        <option value="RR">Roraima</option>
+                        <option value="AP">Amapá</option>
+                        <option value="PA">Pará </option>
+                        <option value="TO">Tocantins</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="AC">Acre</option>
+                    <optgroup label="Região Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PI">Piauí</option>
+                        <option value="CE">Ceará</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                    <optgroup label="Região Centro-Oeste">
+                        <option value="MG">Mato Grosso </option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="GO">Goiás </option>
+                    </optgroup>
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option selected value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputCEP">CEP</label>
+                <input type="text" class="form-control" placeholder="xxxxx-xxx" onkeypress="mascara(this, '#####-###')" maxlength="9" id="inputCEP">
+            </div>
+        </div>
+        <div class="form-group col-md-4">
+            <a href="home.html" class="btn btn-primary btn-md enabled" tabindex="-1" role="button" aria-disabled="true">Voltar</a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Enviar</button>
+            <br>
+            <br>
+        </div>
+    </form>
+
+    <footer id="footer" class="bg-dark" style="width: 100%;height: 80px;position: absolute;bottom: 0;left: 0;">
+
+        <br>
+        <div class="row">
+            <div class="col-md">
+                <font style="color: #ffffff"> &copy; 2019 </font>
+                <font style="color: #ffff00">MELHORA </font>
+                <font style="color: #ff0000">SOROCABA</font>
+                <font style="color: #ffffff"> - Desenvolvido pelos alunos do 2ºsemestre - Curso ADS - Esamc</font>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
+                </div>
+                <div class="modal-body">
+                    Usuário cadastrado com sucesso!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-primary">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script language="JavaScript">
+        /*
+ A função Mascara tera como valores no argumento os dados inseridos no input (ou no evento onkeypress)
+ onkeypress="mascara(this, '## ####-####')"
+ onkeypress = chama uma função quando uma tecla é pressionada, no exemplo acima, chama a função mascara e define os valores do argumento na função
+ O primeiro valor é o this, é o Apontador/Indicador da Mascara, o '## ####-####' é o modelo / formato da mascara
+ no exemplo acima o # indica os números, e o - (hifen) o caracter que será inserido entre os números, ou seja, no exemplo acima o telefone ficara assim: 11-4000-3562
+ para o celular de são paulo o modelo deverá ser assim: '## #####-####' [11 98563-1254]
+ para o RG '##.###.###.# [40.123.456.7]
+ para o CPF '###.###.###.##' [789.456.123.10]
+ Ou seja esta mascara tem como objetivo inserir o hifen ou espaço automáticamente quando o usuário inserir o número do celular, cpf, rg, etc 
+
+ lembrando que o hifen ou qualquer outro caracter é contado tambem, como: 11-4561-6543 temos 10 números e 2 hifens, por isso o valor de maxlength será 12
+ <input type="text" name="telefone" onkeypress="mascara(this, '## ####-####')" maxlength="12">
+ neste código não é possivel inserir () ou [], apenas . (ponto), - (hifén) ou espaço
+ */
+
+        function mascara(t, mask) {
+            var i = t.value.length;
+            var saida = mask.substring(1, 0);
+            var texto = mask.substring(i)
+            if (texto.substring(0, 1) != saida) {
+                t.value += texto.substring(0, 1);
+            }
+        }
+
+    </script>
+</body>
+
+</html>

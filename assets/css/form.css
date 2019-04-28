@@ -1,0 +1,25 @@
+body section
+
+{
+    padding-top: 25px;
+}
+
+
+img 
+{
+    height: 600px; 
+}
+
+
+div#historia, div#meio-ambiente
+{
+    font-size: 20px;
+}
+
+.form-container
+{
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px;
+}
+

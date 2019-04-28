@@ -1,0 +1,611 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel=icon href="sorocaba.png">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <title> Cadastro de sugestões de melhoria </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html"><i class="fa fa-lightbulb-o color-yellow"></i>
+            <font style="color: #ffff00">MELHORA </font>
+            <font style="color: #ff0000">SOROCABA</font>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="form-ideias.html">Melhorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="historia.html">História</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="login-usuario.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro-usuario.html">Cadastro de usuário</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <form class="col-md-6 offset-md-1">
+        <form class='card p-1'>
+            <h1>Cadastro de Sugestões de Melhoria</h1>
+            <legend>Pré-requisitos: </legend>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="cArea">Área da qual a sugestão se destina</label>
+                    <select name="tArea" id="cArea" class="form-control">
+                        <option>Saneamento básico</option>
+                        <option>Energia Elétrica</option>
+                        <option>Pavimentação</option>
+                        <option>Sinalização de Trânsito</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="cBairro">Bairro (Específico ou Geral)</label>
+                    <select name="tBairro" id="cBairro" class="form-control">
+                        <optgroup label="A">
+                            <option>Além Ponte</option>
+                            <option>Ana Maria</option>
+                            <option>Aparecida</option>
+                            <option>Aparecidinha</option>
+                            <option>Area Ind</option>
+                        </optgroup>
+                        <optgroup label="B">
+                            <option>Bairro Vossoroca</option>
+                            <option>Boa Vista</option>
+                            <option>Brigadeiro Tobias</option>
+                        </optgroup>
+                        <optgroup label="C">
+                            <option>Caguacu</option>
+                            <option>Caguassu</option>
+                            <option>Cais</option>
+                            <option>Cajurú do Sul</option>
+                            <option>Cajurú Sul</option>
+                            <option>Campininha</option>
+                            <option>Campos</option>
+                            <option>Caputera</option>
+                            <option>Central Parque Sorocaba</option>
+                            <option>Centro</option>
+                            <option>Cerrado</option>
+                            <option>Chácara 3 Marias</option>
+                            <option>Chácara M Caputera</option>
+                            <option>Chácara Três Marias</option>
+                            <option>Chs Reunidas São Jorge</option>
+                            <option>Cidade Jardim</option>
+                            <option>Condomínio Residencial Village Vert</option>
+                            <option>Condomínio Rua Ipatinga</option>
+                            <option>Conjunto H H Souza</option>
+                            <option>Conjunto Habitacional Doutor Ulisses Guimarães</option>
+                            <option>Conjunto Habitacional Herbert de Souza</option>
+                            <option>Conjunto Habitacional Herbert Souza</option>
+                            <option>Conjunto Habitacional Júlio de Mesquita Filho</option>
+                            <option>Conjunto Habitacional Júlio Mesquita Filho</option>
+                            <option>Conjunto Habitacional Professo</option>
+                            <option>Conjunto Habitacional Professor Benedicto Cleto</option>
+                            <option>Conjunto Habitacional Sorocaba G</option>
+                            <option>Conjunto J Mesquita</option>
+                            <option>Conjunto Residencial Aparecidinha</option>
+                        </optgroup>
+                        <optgroup label="D">
+                            <option>Distrito Industrial</option>
+                        </optgroup>
+                        <optgroup label="E">
+                            <option>Éden</option>
+                        </optgroup>
+                        <optgroup label="G">
+                            <option>Genebra</option>
+                            <option>Genebra Morros</option>
+                            <option>Granja Olga</option>
+                            <option>Granja Olga I</option>
+                            <option>Granja Olga II</option>
+                            <option>Granja Olga Iii</option>
+                        </optgroup>
+                        <optgroup label="H">
+                            <option>Habitacional Ana Poço Eleutério</option>
+                            <option>Habiteto</option>
+                            <option>Habiteto - Ana Paula Eleutério</option>
+                            <option>Horto Florestal</option>
+                        </optgroup>
+                        <optgroup label="I">
+                            <option>Ibiti Royal Park</option>
+                            <option>Inhayba</option>
+                            <option>Ipanema das Pedras</option>
+                            <option>Ipanema do Meio</option>
+                            <option>Ipanema Meio</option>
+                            <option>Ipanema Ville</option>
+                            <option>Ipatinga</option>
+                            <option>Ipiranga</option>
+                            <option>Iporanga</option>
+                            <option>Itangua</option>
+                            <option>Itavuvu</option>
+                        </optgroup>
+                        <optgroup label="J">
+                            <option>Jardim Abaeté</option>
+                            <option>Jardim Camila</option>
+                            <option>Jardim Campos do Conde Ii</option>
+                            <option>Jardim Capitão</option>
+                            <option>Jardim Cardoso</option>
+                            <option>Jardim Carolina</option>
+                            <option>Jardim Casa Branca</option>
+                            <option>Jardim Celeste</option>
+                            <option>Jardim Colina Verde</option>
+                            <option>Jardim Constantino Matucci</option>
+                            <option>Jardim Copaiba</option>
+                            <option>Jardim das Azaleias</option>
+                            <option>Jardim das Estrelas</option>
+                            <option>Jardim das Flores</option>
+                            <option>Jardim das Magnólias</option>
+                            <option>Jardim Didita</option>
+                            <option>Jardim do Sol</option>
+                            <option>Jardim Dois Corações</option>
+                            <option>Jardim dos Estados</option>
+                            <option>Jardim dos Pássaros</option>
+                            <option>Jardim Éden Ville</option>
+                            <option>Jardim Edgar Marques</option>
+                            <option>Jardim Eltonville</option>
+                            <option>Jardim Embaixador</option>
+                            <option>Jardim Emília</option>
+                            <option>Jardim Estrelas</option>
+                            <option>Jardim Europa</option>
+                            <option>Jardim Excelsior</option>
+                            <option>Jardim Faculdade</option>
+                            <option>Jardim Ferreira</option>
+                            <option>Jardim Flamboyant</option>
+                            <option>Jardim Flores</option>
+                            <option>Jardim Francini</option>
+                            <option>Jardim Germiniani</option>
+                            <option>Jardim Gonçalves</option>
+                            <option>Jardim Gramados de Sorocaba</option>
+                            <option>Jardim Gramados Sorocaba</option>
+                            <option>Jardim Granja Olga Iii</option>
+                            <option>Jardim Guadalajara</option>
+                            <option>Jardim Guadalupe</option>
+                            <option>Jardim Guaíba</option>
+                            <option>Jardim Guarujá</option>
+                            <option>Jardim Gutierres</option>
+                            <option>Jardim Harmonia</option>
+                            <option>Jardim Helena Cristina</option>
+                            <option>Jardim Humberto Campos</option>
+                            <option>Jardim Humberto de Campos</option>
+                            <option>Jardim Hungares</option>
+                            <option>Jardim I Ville</option>
+                            <option>Jardim Ibiti do Paço</option>
+                            <option>Jardim Ibiti Paço</option>
+                            <option>Jardim Imperial</option>
+                            <option>Jardim Ipanema</option>
+                            <option>Jardim Ipe</option>
+                            <option>Jardim Ipiranga</option>
+                            <option>Jardim Isaura</option>
+                            <option>Jardim Itaipu</option>
+                            <option>Jardim Itangua</option>
+                            <option>Jardim Itapemirim</option>
+                            <option>Jardim Itapuã</option>
+                            <option>Jardim J S Carvalho</option>
+                            <option>Jardim Jatobá</option>
+                            <option>Jardim Josane</option>
+                            <option>Jardim Judith</option>
+                            <option>Jardim Juliana</option>
+                            <option>Jardim Leandro Dromani</option>
+                            <option>Jardim Lena</option>
+                            <option>Jardim Leocádia</option>
+                            <option>Jardim Los Angeles</option>
+                            <option>Jardim Luciana Maria</option>
+                            <option>Jardim Magnólias</option>
+                            <option>Jardim Marcelo Augusto</option>
+                            <option>Jardim Marco Antônio</option>
+                            <option>Jardim Maria Antônia Prado</option>
+                            <option>Jardim Maria Cristina</option>
+                            <option>Jardim Maria do Carmo</option>
+                            <option>Jardim Maria Elvira</option>
+                            <option>Jardim Maria Eugênia</option>
+                            <option>Jardim Marnilda</option>
+                            <option>Jardim Millenium</option>
+                            <option>Jardim Monterrey</option>
+                            <option>Jardim Montevidéo</option>
+                            <option>Jardim Montreal</option>
+                            <option>Jardim Morumbi</option>
+                            <option>Jardim N Torres</option>
+                            <option>Jardim Nair</option>
+                            <option>Jardim Nápoli</option>
+                            <option>Jardim Nelisa</option>
+                            <option>Jardim Nilton Torres</option>
+                            <option>Jardim Nogueira</option>
+                            <option>Jardim Nova Esperança</option>
+                            <option>Jardim Nova Ipanema</option>
+                            <option>Jardim Nova Manchester</option>
+                            <option>Jardim Nova Tupã</option>
+                            <option>Jardim Novo Eldorado</option>
+                            <option>Jardim Novo Horizonte</option>
+                            <option>Jardim Novo Mundo</option>
+                            <option>Jardim Pacaembu</option>
+                            <option>Jardim Pagliato</option>
+                            <option>Jardim Panorama</option>
+                            <option>Jardim Paraíso</option>
+                            <option>Jardim Paraná</option>
+                            <option>Jardim Pássaros</option>
+                            <option>Jardim Passo</option>
+                            <option>Jardim Paulista</option>
+                            <option>Jardim Paulistano</option>
+                            <option>Jardim Piazza Di Roma</option>
+                            <option>Jardim Piazza Di Roma Ii</option>
+                            <option>Jardim Piratininga</option>
+                            <option>Jardim Pires de Mello</option>
+                            <option>Jardim Pires Mello</option>
+                            <option>Jardim Planalto</option>
+                            <option>Jardim Portal da Colina</option>
+                            <option>Jardim Portal do Itavuvu</option>
+                            <option>Jardim Portobello</option>
+                            <option>Jardim Portugal</option>
+                            <option>Jardim Prestes Barros</option>
+                            <option>Jardim Prestes de Barros</option>
+                            <option>Jardim Primavera</option>
+                            <option>Jardim Quadra Imperador I</option>
+                            <option>Jardim Real</option>
+                            <option>Jardim Refúgio</option>
+                            <option>Jardim Renascer</option>
+                            <option>Jardim Residencial Colinas do Sol</option>
+                            <option>Jardim Residencial Deolinda Guerra</option>
+                            <option>Jardim Residencial dos Reis</option>
+                            <option>Jardim Residencial Giverny</option>
+                            <option>Jardim Residencial Imperatriz</option>
+                            <option>Jardim Residencial Martinez</option>
+                            <option>Jardim Residencial Morada das Flores</option>
+                            <option>Jardim Residencial Reis</option>
+                            <option>Jardim Residencial Sunset Village</option>
+                            <option>Jardim Residencial Tivoli Park</option>
+                            <option>Jardim Residencial Vicente de Moraes</option>
+                            <option>Jardim Residencial Vicente Moraes</option>
+                            <option>Jardim Residencial Villa Amato</option>
+                            <option>Jardim Residencial Vivenda do Itavuvu</option>
+                            <option>Jardim Rodrigo</option>
+                            <option>Jardim Rosália Alcolea</option>
+                            <option>Jardim Rua Alcolea</option>
+                            <option>Jardim Rua Vila Amato</option>
+                            <option>Jardim Rubi</option>
+                            <option>Jardim S Esmeralda</option>
+                            <option>Jardim S Park</option>
+                            <option>Jardim Saira</option>
+                            <option>Jardim Sandra</option>
+                            <option>Jardim Santa Bárbara</option>
+                            <option>Jardim Santa Catarina</option>
+                            <option>Jardim Santa Cecília</option>
+                            <option>Jardim Santa Cláudia</option>
+                            <option>Jardim Santa Esmeralda</option>
+                            <option>Jardim Santa Fé</option>
+                            <option>Jardim Santa Lúcia</option>
+                            <option>Jardim Santa Luíza</option>
+                            <option>Jardim Santa Madre Paulina</option>
+                            <option>Jardim Santa Maria II</option>
+                            <option>Jardim Santa Marina</option>
+                            <option>Jardim Santa Marina II</option>
+                            <option>Jardim Santa Marta</option>
+                            <option>Jardim Santa Rosa</option>
+                            <option>Jardim Santa Rosália</option>
+                            <option>Jardim Santo Amaro</option>
+                            <option>Jardim Santo André</option>
+                            <option>Jardim Santo André II</option>
+                            <option>Jardim São Camilo</option>
+                            <option>Jardim São Carlos</option>
+                            <option>Jardim São Conrado</option>
+                            <option>Jardim São Guilherme</option>
+                            <option>Jardim São Judas Tadeu</option>
+                            <option>Jardim São Lourenzo</option>
+                            <option>Jardim São Marcos</option>
+                            <option>Jardim São Marcos II</option>
+                            <option>Jardim São Paulo</option>
+                            <option>Jardim Simus</option>
+                            <option>Jardim Siriema</option>
+                            <option>Jardim Sol Nascente</option>
+                            <option>Jardim Sônia Maria</option>
+                            <option>Jardim Sorocaba Park</option>
+                            <option>Jardim Sorocabano</option>
+                            <option>Jardim Tatiana</option>
+                            <option>Jardim Topázio</option>
+                            <option>Jardim Tortelli</option>
+                            <option>Jardim Tropical</option>
+                            <option>Jardim Tulipas</option>
+                            <option>Jardim Tupinambá</option>
+                            <option>Jardim Turmalina</option>
+                            <option>Jardim Vera Cruz</option>
+                            <option>Jardim Vergueiro</option>
+                            <option>Jardim Vila S Domingos</option>
+                            <option>Jardim Vila São Domingos</option>
+                            <option>Jardim Villa Amato</option>
+                            <option>Jardim Village Snt Claire</option>
+                            <option>Jardim Wanel Ville I</option>
+                            <option>Jardim Wanel Ville II</option>
+                            <option>Jardim Wanel Ville IV</option>
+                            <option>Jardim Wanel Ville Vila</option>
+                            <option>Jardim Zulmira</option>
+                            <option>Cidade Toda</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="cRuas">Rua do local</label>
+                    <select name="tRuas" id="cRuas" class="form-control">
+                        <option>Rua Rodrigues Pacheco</option>
+                        <option>Rua Roberto Landell de Moura</option>
+                        <option>Rua Dulce Brunetti Poli</option>
+                        <option>Rua Professor Walter Carretero</option>
+                        <option>Rua Cláudio Bismara</option>
+                        <option>Largo Antônio</option>
+                        <option>Rua Antonio Bravo Plaça</option>
+                        <option>Rua Vergíglio Lopes Machado</option>
+                        <option>Rua Amador Torres Rosa</option>
+                        <option>Rua Doutor Ernesto de Campos</option>
+                        <option>Rua José Alves</option>
+                        <option>Rua Visconde de Mauá</option>
+                        <option>Rua Paulo César Cordeiro</option>
+                        <option>Rua Augusto Carmona Santos</option>
+                        <option>Rua Osvaldo Oliveira Duarte</option>
+                        <option>Avenida Doutor Antônio de Souza Netto</option>
+                        <option>Rua Antônio Negrette Júnior</option>
+                        <option>Rua José de Campos</option>
+                        <option>Rua André Hurtado Garcia</option>
+                        <option>Rua Nelson Herdy Barbosa</option>
+                        <option>Rua José de Anchieta</option>
+                        <option>Alameda das Asaléas</option>
+                        <option>Estrada do Inhayba</option>
+                        <option>Rua Florival Cãndido</option>
+                        <option>Rua Etelvina Abreu Oliveira</option>
+                        <option>Rua Doutor Heitor Ferreira Prestes</option>
+                        <option>Rua Egídio Previtali</option>
+                        <option>Rua Álvaro Teixeira de Souza Leite</option>
+                        <option>Rua Doze</option>
+                        <option>Alameda Jacareí</option>
+                        <option>Rua Marcolino Zaccariotto</option>
+                        <option>Rua Direitos Humanos</option>
+                        <option>Rua Benjamim dos Santos</option>
+                        <option>Praça Castro Alves</option>
+                        <option>Rua Manoel Cardoso dos Santos Filho</option>
+                        <option>Rua Cento e Doze</option>
+                        <option>Praça Doutor Spártaco Vial</option>
+                        <option>Rua Antônio Digiampietri</option>
+                        <option>Rua Benedicto Estevam da Silva</option>
+                        <option>Rua Nestor Trevisan</option>
+                        <option>Rua Josephina D'Arienzo Lamberti</option>
+                        <option>Rua Minello</option>
+                        <option>Rua Antenor José Bellini</option>
+                        <option>Rua Lucas Nogueira Garcez</option>
+                        <option>Rua Dino Pannunzio</option>
+                        <option>Rua Abíblio de Freitas</option>
+                        <option>Rua Doutor Fernando Soares Fernandes</option>
+                        <option>Condomínio Residencial Suncet</option>
+                        <option>Rua Alfredo Barros Monteiro</option>
+                        <option>Rua Mathias Domingues de Oliveira</option>
+                        <option>Rua João Júlio Momesso</option>
+                        <option>Rua Bernardo Guimarães</option>
+                        <option>Rua Malvino Scarmeloto</option>
+                        <option>Rua Ana Paula Eleutério</option>
+                        <option>Rua Fernanda Albertini Evaso</option>
+                        <option>Rua São Roque</option>
+                        <option>Rua Pedro Rodrigues Cavalcante</option>
+                        <option>Rua Estevam Concato</option>
+                        <option>Rua José Crespo Filho</option>
+                        <option>Rua Flórida</option>
+                        <option>Rua João Marques</option>
+                        <option>Rua Maria Arruda de Moura Barros</option>
+                        <option>Rua João Soares</option>
+                        <option>Rua Carlos Spera</option>
+                        <option>Rua Carlos Pereira de Miranda</option>
+                        <option>Rua Anna Joaquina Faria Moreira Benevenuto</option>
+                        <option>Rua Mario Carlos Perrella</option>
+                        <option>Alameda dos Antúrios</option>
+                        <option>Rua Giovani Poles</option>
+                        <option>Rua Mercedes Ferreira</option>
+                        <option>Rua Ordália Benedita de Souza</option>
+                        <option>Rua Dona Michaella Gonçalves</option>
+                        <option>Rua Genésio Maria</option>
+                        <option>Rua Valmir Teles de Menezes</option>
+                        <option>Alameda Boa Fé</option>
+                        <option>Rua Virginia</option>
+                        <option>Praça Álvaro Ferreira</option>
+                        <option>Rua Marques de Herval</option>
+                        <option>Rua Joaquim Manoel de Carvalho Morais</option>
+                        <option>Rua José Floriano da Silva</option>
+                        <option>Rua José Leite do Canto Júnior</option>
+                        <option>Rua Francisca de Queiroz</option>
+                        <option>Rua Roque Gabriel Vieira</option>
+                        <option>Avenida Nipro</option>
+                        <option>Rua Professor Abimael C. Vieira</option>
+                        <option>Rua José Marcos de Almeida</option>
+                        <option>Rua Milton Roza</option>
+                        <option>Praça Francisco Rodrigues Lopes</option>
+                        <option>Rua Walter Duarte</option>
+                        <option>Rua Antônio Montoro Fuentes</option>
+                        <option>Rua Hermínio Sanches</option>
+                        <option>Rua Décio Tavares</option>
+                        <option>Rua Herminio de Souza Valle</option>
+                        <option>Rua Miguel Renê da Fonseca Brasil</option>
+                        <option>Rua Carolina Borghi</option>
+                        <option>Praça Abel Cândido</option>
+                        <option>Rua Doutor Nelson Munhoz Soares</option>
+                        <option>Rua Manoel Martins Castanheira</option>
+                        <option>Rua Miguel Felipe Gattaz</option>
+                        <option>Rua Doraci de Barros</option>
+                        <option>Rua Geraldo Soares da Silva</option>
+                        <option>Rua Benedicto Pires da Rocha</option>
+                        <option>Rua Carlos Renger</option>
+                        <option>Rua José Totora</option>
+                        <option>Rua Camargo Fleury</option>
+                        <option>Rua Maranhão</option>
+                        <option>Rua Áustria</option>
+                        <option>Rua Frei Henrique Schween</option>
+                        <option>Rua Saldanha da Gama</option>
+                        <option>Viela José Hypólito de Godoy</option>
+                        <option>Rua Ângelo Henrique Dorelli</option>
+                        <option>Rua Castro Ferreira</option>
+                        <option>Rua Antonio Scudeler Sobrinho</option>
+                        <option>Rua Roberto Dias Baptista</option>
+                        <option>Rua Ana Rosa Alves Carriel</option>
+                        <option>Alameda Itanhaém</option>
+                        <option>Rua Virgínia Moreira Corrêa</option>
+                        <option>Rua Catarina</option>
+                        <option>Rua Xavier de Araújo</option>
+                        <option>Rua Mathias de Albuquerque</option>
+                        <option>Rua Antônio Ferraz</option>
+                        <option>Rua José Carlos do Nascimento</option>
+                        <option>Rua Castelo Branco</option>
+                        <option>Rua João Soares de Moraes</option>
+                        <option>Rua Leonildes Peres Ferreira</option>
+                        <option>Rua Waldemar de Oliveira Ramos</option>
+                        <option>Rua Gustavo Magalhães</option>
+                        <option>Rua Alipio Antonio dos Reis</option>
+                        <option>Rua João Batista de Almeida</option>
+                        <option>Rua João Ramalho</option>
+                        <option>Rua Durvalina Tavares Prestes</option>
+                        <option>Rua Joaquim Murtinho</option>
+                        <option>Rua Itatiaia</option>
+                        <option>Rua José Gonçalves</option>
+                        <option>Rua Piracicaba</option>
+                        <option>Rua Accacio Castanho de Almeida</option>
+                        <option>Rua Benedicto de Moraes</option>
+                        <option>Rua Mitre Fiuza Ayres</option>
+                        <option>Rua João Mustafá Filho</option>
+                        <option>Rua Irajá</option>
+                        <option>Rua Pará</option>
+                        <option>Rua Ribeirão Preto</option>
+                        <option>Alameda Laurindo de Brito</option>
+                        <option>Rua Vinte e Oito de Outubro</option>
+                        <option>Rua L Um</option>
+                        <option>Avenida Juvenal de Campos</option>
+                        <option>Rua Manoel Herrera</option>
+                        <option>Rua Miguel Marques Filho</option>
+                        <option>Rua Julião Rodrigues</option>
+                        <option>Rua Lucidio Monteiro de Carvalho</option>
+                        <option>Rua Oswaldo Stefani Júnior</option>
+                        <option>Rua Jairo Marins</option>
+                        <option>Rua Mairinque</option>
+                        <option>Praça das Malvaceas</option>
+                        <option>Rua Judith Silva Barbosa</option>
+                        <option>Rua Raposo Tavares</option>
+                        <option>Rua Natalino Jardim Rodrigues</option>
+                        <option>Rua Tenente Giovaldo Gonçalves</option>
+                        <option>Rua Januário Festa Neto</option>
+                        <option>Rua Hortêncio Piaya Martinez</option>
+                        <option>Rua Paraná</option>
+                        <option>Rua João Bento Galvão</option>
+                        <option>Rua João Pires Filho</option>
+                        <option>Rua Manoel Adolfo da Silva</option>
+                        <option>Rua Manoel Gomes dos Santos Neto</option>
+                        <option>Rua Renato Massari</option>
+                        <option>Rua João Silvestre</option>
+                        <option>Rua Alda Luchini Vial</option>
+                        <option>Rua João Benedito Mena</option>
+                        <option>Rua Santiago Idalgo Ruiz</option>
+                        <option>Praça Síllvio Vestina</option>
+                        <option>Rua Braz Florenzano</option>
+                        <option>Rua Paulo Pereira Fiuza</option>
+                        <option>Rua Celso Rolim de Freitas</option>
+                        <option>Rua Damiana Rocca Zanella</option>
+                        <option>Rua José Garibaldi</option>
+                        <option>Rua Arnaldo Pin</option>
+                        <option>Rua Júlio Pavlovsky</option>
+                        <option>Rua Cecíclia Meirelles</option>
+                        <option>Praça Bandeirantes</option>
+                        <option>Rua José Martinez Peres</option>
+                        <option>Rua Doutor João Salerno</option>
+                        <option>Rua John Waldemar Sjoberg</option>
+                        <option>Rua Celina Stela Corradi Beu</option>
+                        <option>Rua Miguel Giardini</option>
+                        <option>Travessa Hermínio Carbonieri</option>
+                        <option>Rua Antônio Vieira Rodrigues</option>
+                        <option>Alameda Dálias</option>
+                        <option>Rua José Martins</option>
+                        <option>Rua José Soares dos Santos</option>
+                        <option>Praça José Fausto Campolim</option>
+                        <option>Rua Antonio Perez Hernandez</option>
+                        <option>Largo Santa Cruz da Composição</option>
+                        <option>Praça Maçonaria</option>
+                        <option>Rua Ernesto Migliorini</option>
+                        <option>Rua Felipe Antonio Moyses Betti</option>
+                        <option>Rua João Franco de Almeida Filho</option>
+                        <option>Rua Adelaide Lamberti Diener</option>
+                        <option>Rua Duzolina Batiola Pagliato</option>
+                        <option>Rua Marilena Ribeiro Puglia Lopes</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="#">Foto do Local</label><br>
+                    <input type="file" name="tFile" id="tFile">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="#">Video - Instruções para o vídeo
+
+                    </label>
+                    <ul>
+                        <li> Grave o vídeo com a câmera na horizontal;</li>
+                        <li> Identifique-se dizendo seu nome, idade, e onde mora;</li>
+                        <li> Conte um breve resumo da ocorrência. </li>
+                    </ul>
+                    <input type="file" name="tFile" id="tFile">
+                </div>
+            </div>
+            <div class="form-group col-md-5">
+                <label for="cMsg">Descrição da melhoria/denúncia</label>
+                <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Faça uma breve descrição do problema.">
+            </textarea>
+            </div>
+            <br>
+
+            <div class="form-group col-md-4">
+                <a href="home.html" class="btn btn-primary btn-md enabled" tabindex="-1" role="button" aria-disabled="true">Voltar</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Cadastrar</button>
+            </div>
+        </form>
+
+    </form>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">Confirmação</h5>
+                </div>
+                <div class="modal-body">
+                    Sugestão de melhoria cadastrada com sucesso!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-primary">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="bg-dark" style="width: 100%;height: 80px;bottom: 0;left: 0;">
+
+        <br>
+        <div class="row">
+            <div class="col-md">
+                <font style="color: #ffffff"> &copy; 2019 </font>
+                <font style="color: #ffff00">MELHORA </font>
+                <font style="color: #ff0000">SOROCABA</font>
+                <font style="color: #ff0000">SOROCABA</font>
+                <font style="color: #ffffff"> - Desenvolvido pelos alunos do 2ºsemestre - Curso ADS - Esamc</font>
+
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
